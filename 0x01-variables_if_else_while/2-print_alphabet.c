@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main - Prints the last digit of a randomly generated number
  *
  * Return: Always 0.
