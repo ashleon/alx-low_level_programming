@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *main - Prints a random number and states whether 
+ *main - Prints a random number and states whether
  *
- * Return: Always 0.    
+ *Return: Always 0.    
  *
  */
 int main(void)
