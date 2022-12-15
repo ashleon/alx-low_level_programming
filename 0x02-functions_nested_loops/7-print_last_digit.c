@@ -17,11 +17,6 @@ int print_last_digit(int n)
 		k *= -1;
 		return (k);
 	}
-	else if (k > 10)
-	{
-		k = print_last_digit(k);
-	}
-	else if (k == 0)
-		return (k);
+	_putchar(k + '0');
 	return (k);
 }
