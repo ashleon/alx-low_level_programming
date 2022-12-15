@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "ashleon.h"
+#include "main.h"
 /**
  * prints alphabets
  * Return: Always 0.
