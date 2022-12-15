@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_sign - outputs the sign of a given number 
+ * print_sign - outputs the sign of a given number
  *
  * @n: the number whose sign is to be checked
  *
