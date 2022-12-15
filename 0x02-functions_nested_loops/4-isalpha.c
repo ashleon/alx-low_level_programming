@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * _isalpha: checks whether a character is aplhabetic
+ * _isalpha - checks whether a character is aplhabetic
  *
  * @c: is the ascii value
  *
- * Return: 1 if true 
+ * Return: 1 if true
  */
 int _isalpha(int c)
 {
