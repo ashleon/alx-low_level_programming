@@ -9,12 +9,13 @@
 int print_sign(int n)
 {
 	int isPositive = 1;
+
 	if (n > 0)
 	{
 		_putchar(43);
 		return (isPositive);
 	}
-	else if ((n = 0))
+	else if ((n == 0))
 	{
 		_putchar(48);
 		return (0);
