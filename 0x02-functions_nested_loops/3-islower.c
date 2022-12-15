@@ -6,9 +6,9 @@
  */
 int _islower(int c)
 {
-	int ascii_num,islower=1,notLower=0;
+	int islower=1,notLower=0;
 
-	if (ascii_num <= 122 && ascii_num >= 97)
+	if (c <= 122 && c >= 97)
 		return (islower);
 	return (notLower);
 }
