@@ -1,14 +1,14 @@
 #include <stdio.h>
 /**
- * main 
+ * prints alphabetical letters
  *
  * Return: Always 0.
  */
-int main(void)
+void printAlphabet(void)
 {
-	putchar('l');
-	putchar('e');
-	putchar('o');
-	putchar('n');
-	return (0);
+	char m;
+
+	for (m = 'a'; m<= 'z'; m++)
+		_putchar(m);
+	_putchar('\n');
 }
