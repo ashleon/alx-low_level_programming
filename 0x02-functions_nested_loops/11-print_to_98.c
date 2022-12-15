@@ -14,8 +14,8 @@ void print_to_98(int n)
 	{
 		while(n <= 98)
 		{
-			print(n + ',');
-			print('\n');
+			puts(n + " " + ',');
+			puts('\n');
 			n++;
 		}
 	}
@@ -23,11 +23,11 @@ void print_to_98(int n)
 	{
 		do
 		{
-			print(n + ',');
-			print('\n');
+			puts(n + " " + '\n');
+			puts('\n');
 			n--;
 		}while (n >= 98);
 	}
 	else if (n == 98)
-		print(98);
+		return (n);
 }
