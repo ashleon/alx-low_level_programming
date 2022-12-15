@@ -3,7 +3,7 @@
 #include <stdlib.h>
 /**
  * _abs - calculates absolute value of a number
- * n: number whose absolute value should be calculated 
+ * @n: number whose absolute value should be calculated
  * Return: the absolute value
  */
 int _abs(int n)
