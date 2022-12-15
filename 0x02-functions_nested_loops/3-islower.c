@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * _islower - checks whether ascii value of a given character is within the range of lowercase letters
+ * _islower - checks whether a character is lowercase
  *
- * @c is the ascii value for the alphabet
+ * @c: is the ascii value for the alphabet
+ *
  * Return: 1 if @c is lowercase alphabet
  */
 int _islower(int c)
