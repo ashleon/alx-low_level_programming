@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdlib.h>
+#include <stdio.h>
 /**
  * print_to_98 - print numbers from n to 98
  *
@@ -12,8 +14,8 @@ void print_to_98(int n)
 	{
 		while(n <= 98)
 		{
-			_putchar(n + ',');
-			_putchar('\n');
+			print(n + ',');
+			print('\n');
 			n++;
 		}
 	}
@@ -21,11 +23,11 @@ void print_to_98(int n)
 	{
 		do
 		{
-			_putchar(n + ',');
-			_putchar('\n');
+			print(n + ',');
+			print('\n');
 			n--;
 		}while (n >= 98);
 	}
 	else if (n == 98)
-		_putchar(98);
+		print(98);
 }
