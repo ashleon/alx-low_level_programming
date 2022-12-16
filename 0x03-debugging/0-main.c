@@ -6,10 +6,8 @@
  *
  * Return: null
  */
-void postitive_or_negative()
+void postitive_or_negative(int i)
 {
-	int i;
-
 	if (i < 0)
 		putchar(-1);
 	else if (i == 0)
