@@ -1,10 +1,9 @@
 #include "main.h"
 /**
- * _isdigit - checks for values 0 through 9
+ * _isdigit - checks for digits between 0 through 9
  *
- * @c: the value to be checked
- * 
- * Return: 1 if c is a number, else returns 0
+ * @c: ascii value for a character
+ * Return: 1 if chacter is a number between 0 and 9, else returs 0
  */
 int _isdigit(int c)
 {
@@ -12,6 +11,7 @@ int _isdigit(int c)
 	{
 		return (1);
 	}
-	
+
 	return (0);
 }
+
