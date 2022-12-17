@@ -1,17 +1,17 @@
 #include "main.h"
 /**
- * positive_or_negative - determines the sign of a value i
+ * main - determines the sign of a value i
  *
  * @i: the number for which the sign is to be determined
  *
- * Return: null
+ * Return: 0
  */
-void postitive_or_negative(int i)
+int main(void)
 {
-	if (i < 0)
-		putchar(-1);
-	else if (i == 0)
-		putchar(0);
-	else if (i > 0)
-		putchar(1);
+	int i;
+
+	i = 0;
+
+	positive_or_negative(i);
+	return (0);
 }
