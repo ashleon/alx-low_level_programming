@@ -14,9 +14,12 @@ void print_most_numbers(void)
 	do {
 		if (i == 2 || i == 4)
 		{
+			continue;
 		}
 		else
+		{
 			_putchar(i + '0');
+		}
 		i++;
 	} while (i <= 9);
 	_putchar('\n');
