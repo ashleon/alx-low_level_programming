@@ -1,6 +1,6 @@
-#ifndef "main.c"
-#define "main.c"
+#ifndef "main.h"
+#define "main.h"
 
 void reset_to_98(int *n);
 
-#endif
+#endif /*main.h*/
